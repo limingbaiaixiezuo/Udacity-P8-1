@@ -1,0 +1,71 @@
+*,
+*:after,
+*:before: {
+    box-sizing: inherit;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+#serach-area{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    float: left;
+}
+#searchInputField{
+    width:96.5%;
+}
+#search-title{
+    color:white;
+    font-weight: 800;
+}
+#map{
+    height:100%;
+    width:100%;
+}
+#list{
+    color:red;
+    list-style-type: none;
+}
+#parent{
+    margin: 3;
+    padding: 3;
+}
+@media screen and (max-width: 768px) {
+#list{
+    font-size: 50%;
+}
+#search-title{
+    color:white;
+    font-weight: 600;
+    font-size: 70%;
+
+}
+#parent{
+    margin: 0;
+    padding: 0;
+}
+}
+@media screen and (max-width: 414px) {
+#list{
+    font-size: 25%;
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    margin: 0;
+    padding: 0;
+}
+#search-title{
+    text-align: center;
+    color:white;
+    font-weight: 400;
+    font-size: 50%;
+}
+}
